@@ -1,0 +1,22 @@
+{
+    "name": "tltestmodule",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "keywords": [
+        "tltestmodule"
+    ],
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Tridon Lee",
+    "license": "ISC",
+    "homepage": "https://github.com/leechuanjun/TLTestModule",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leechuanjun/TLTestModule.git"
+    }
+}
