@@ -7,9 +7,9 @@
  */
 
 import React, {Component} from 'react';
-import { Platform, StyleSheet, Text, View, requireNativeComponent} from 'react-native';
+import { Platform, StyleSheet, Text, View} from 'react-native';
 
-const TLTestView = requireNativeComponent('TLTestView', null);
+import TLTestView from 'tltestmodule';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',

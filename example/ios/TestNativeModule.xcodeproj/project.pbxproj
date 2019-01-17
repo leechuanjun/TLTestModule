@@ -301,6 +301,13 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
+		7E55587F21F020C900D0A32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A58FAD8A47D9486A95FEF2BA /* TLTestModule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E5553CF21EECE0600D0A32C;
+			remoteInfo = TLTestModule;
+		};
 		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
@@ -344,6 +351,7 @@
 		6AC1815C0D544006954B6C18 /* libTLTestModule.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTLTestModule.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A58FAD8A47D9486A95FEF2BA /* TLTestModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = TLTestModule.xcodeproj; path = ../node_modules/tltestmodule/ios/TLTestModule.xcodeproj; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -552,6 +560,14 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		7E55585721F020C900D0A32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E55588021F020C900D0A32C /* libTLTestModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +583,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				A58FAD8A47D9486A95FEF2BA /* TLTestModule.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -773,6 +790,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 7E55585721F020C900D0A32C /* Products */;
+					ProjectRef = A58FAD8A47D9486A95FEF2BA /* TLTestModule.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1031,6 +1052,13 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7E55588021F020C900D0A32C /* libTLTestModule.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTLTestModule.a;
+			remoteRef = 7E55587F21F020C900D0A32C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1186,6 +1214,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = TestNativeModuleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1212,6 +1241,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = TestNativeModuleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1239,6 +1269,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = TestNativeModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1261,6 +1292,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = TestNativeModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1290,6 +1322,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = "TestNativeModule-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1324,6 +1357,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = "TestNativeModule-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1357,6 +1391,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = "TestNativeModule-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1390,6 +1425,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule",
+					"$(SRCROOT)/../node_modules/tltestmodule/ios/TLTestModule/**",
 				);
 				INFOPLIST_FILE = "TestNativeModule-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
