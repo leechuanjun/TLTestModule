@@ -11,7 +11,7 @@
 
 @implementation TLTestViewManager
 
-RCT_EXPORT_MODULE()
+RCT_EXPORT_MODULE(TLTestView)
 
 - (UIView *)view
 {
